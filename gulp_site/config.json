@@ -1,0 +1,42 @@
+{
+  "serverPort": "3006",
+  "dev_template": {
+    "env": "测试",
+    "ROOT_PATH": "${ROOT_PATH}",
+    "base": "",
+    "userUrl": "",
+    "headUrl": "",
+    "loginUrl":"",
+    "registerUrl":"",
+    "apiUrl": "http://www.baidu.com"
+  },
+  "pro_template": {
+    "env": "生产",
+    "ROOT_PATH": "${ROOT_PATH}",
+    "searchId": "",
+    "base": "",
+    "userUrl": "",
+    "headUrl": "",
+    "apiUrl": "http://www.baidu.com"
+  },
+  "debug_template": {
+    "env": "调试",
+    "ROOT_PATH": "../",
+    "searchId": "",
+    "base": "<base href='../../'>",
+    "userUrl": "",
+    "headUrl": "",
+    "apiUrl": "http://www.baidu.com"
+  },
+  "preview_template": {
+    "env": "预览",
+    "ROOT_PATH": "../",
+    "base": "<base href='http://123.235.23.182:10080/~jenkins/jobs/haierwcm/workspace/cn_site/'>",
+    "searchId": "",
+    "userUrl": "",
+    "headUrl": "",
+    "apiUrl": "http://www.baidu.com"
+  },
+  "testSiteId": "0",
+  "proSiteId": "0"
+}
